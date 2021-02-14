@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+background-color: green;
+padding: 14px 16px;
+
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: black 2px 20px 10px ;
+}
+
+.navbar{
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 10px 0 50px 50px;
+    box-shadow: 2px 20px 10px rgb(66, 65, 65);
+}   
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    /* justifiy content teg is justy content place where */
+}
+.navbar li{
+  text-align: center;
+}
+
+.navbar ul li  a{
+    text-decoration: none;
+    padding: 0 30px;
+   color: black;
+   font-size: 40px;
+   font-weight: bold;
+   
+
+}
+  
+.navbar ul li a:hover{
+    color: yellow;
+    background-color:blue;
+    border-radius: 10px solid;
+    overflow:hidden;
+}
+
+.content{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.h31{
+    text-align: center;
+}
+
+#black{
+    width: 300px;
+  
+    overflow: hidden;
+}
+#bbb{
+    width: 300px;
+}
+
+.img1{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blackhathacker{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ports{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+.protocol{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+tr{
+    text-align: center;
+    
+}
+table{
+    border-color: brown;
+}
+th{
+    background-color: green;
+    border: solid;
+}
+h3{
+    color: blue;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+#toggle{
+    display: none;
+    background-color: white;
+}
+
+.togglearea{
+    background-color:rgb(194, 39, 39) ;
+    border-bottom: 2px solid rgb(12, 11, 11);
+    color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.togglearea label{
+    background-color: black;
+    height: 45px;
+    width: 50px;
+    color: rgb(119, 22, 22);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.togglearea label span{
+    background-color: black;
+    height: 4px;
+    width: 80%;
+    margin: 2px 0px;
+}
+.togglearea{
+    display: none;
+}
+
+.suraj9{
+    background-color: rgba(2, 0, 0, 0.74);
+    padding: 10px ;
+    margin: 10px;
+}
+
+.suraj91 ul{
+   display: flex;
+list-style: none;
+justify-content: center;
+
+
+}
+
+.suraj91 ul li{
+ padding-top: 20px;
+
+ 
+
+}
+
+.suraj91 ul li a{
+    padding: 5px 20px;
+    margin: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border: solid 2px white;
+    border-radius: 5px;
+    
+
+   
+}
+.suraj91 ul li a:hover{
+    background-color: rgb(47, 47, 241);
+}
+
+.surajfoot{
+    text-align: end;
+    padding-left: 200px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold;
+    text-shadow: rgb(17, 13, 219) 5px 2px 2px;
+}
+
+.surajss{
+ width: 200px;
+}
+   
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .navbar ul{
+      flex-direction:column ;
+    display: none;
+    
+    }
+
+    #toggle:checked + .navbar ul {
+            display: flex;
+    }
+
+    .togglearea{
+        display: flex;
+    }
+
+    .suraj91 ul {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .suraj91 ul li a{
+        border: none;
+        color: white;
+    }
+    .surajss{
+        width: 100px;
+
+
+    }
+        .surajfoot{
+            padding-left: 100px;
+            font-size: 20px;
+}
+
+@media screen and (max-width: 460px){
+
+    .surajfoot{
+        padding-left: 50px;
+        font-size: 10px;
+
+    }
+
+
+}
+
+@media screen and (max-width 311px ){
+    .surajfoot{
+        padding-left: 5px;
+        font-size: 5px;
+
+    }
+}
